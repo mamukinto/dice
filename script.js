@@ -20,13 +20,13 @@ function roll() {
 	first.style.backgroundImage = "url(" + getRandomInt(6) +".png)";
 	second.style.backgroundImage = "url(" + getRandomInt(6) +".png)";
 }
-function animate() {
+function animatq() {
 	animation();
 	roll();
 }
 document.addEventListener("keydown", event => {
   if (event.isComposing || event.keyCode === 32) {
-    animate();
+    animatq();
   }
   
 });
