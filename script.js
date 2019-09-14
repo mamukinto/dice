@@ -30,3 +30,20 @@ document.addEventListener("keydown", event => {
   }
   
 });
+
+
+setInterval(function() {
+	var lol = Math.floor(Math.random() * Math.floor(2) + 1)
+	if (lol>1) {
+		second.classList.add("lol");
+		setTimeout(function() {
+			second.classList.remove("lol");
+		}, 2000);
+	}
+	else if (lol<2) {
+	first.classList.add("lol");
+	setTimeout(function() {
+			first.classList.remove("lol");
+		}, 2000);
+}
+}, getRandomInt(8000)+5000)

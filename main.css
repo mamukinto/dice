@@ -50,3 +50,11 @@ body {
 	width: 100%;
 	background-color: #FFF;
 }
+
+.lol {
+	transition: 1.5s;
+	transform:rotate(360deg) scale(1.25);
+    -webkit-transform:rotate(360deg) scale(1.25);
+    -moz-transform:rotate(360deg) scale(1.25);
+    -ms-transform:rotate(360deg) scale(1.25);
+}
